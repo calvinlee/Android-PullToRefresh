@@ -82,7 +82,7 @@ public abstract class PullToRefreshBase<T extends View> extends LinearLayout imp
 	private FrameLayout mRefreshableViewWrapper;
 
 	private boolean mShowViewWhileRefreshing = true;
-	private boolean mScrollingWhileRefreshingEnabled = false;
+	private boolean mScrollingWhileRefreshingEnabled = true;
 	private boolean mFilterTouchEvents = true;
 	private boolean mOverScrollEnabled = true;
 	private boolean mLayoutVisibilityChangesEnabled = true;
